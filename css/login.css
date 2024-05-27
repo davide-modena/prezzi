@@ -1,0 +1,64 @@
+.login-form{
+    width: 100vw;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+.login-form h1{
+    position: absolute;
+    top: 100px;
+}
+
+.login-form span{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login-form .disabled{
+    opacity: .4;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,.25);
+    background-color: white;
+}
+
+form.hidden{
+    display: none;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-element input{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button{
+    background-color: var(--green);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+#errorContainer{
+    position: absolute;
+    top: 250px;
+    color: red;
+}

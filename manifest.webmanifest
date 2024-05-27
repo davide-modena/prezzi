@@ -1,0 +1,21 @@
+{
+    "short_name": "Prezzi",
+    "name": "Prezzi",
+    "description": "Risparmio in un click!",
+    "icons": [
+      {
+        "src": "images/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }

@@ -1,0 +1,130 @@
+h1.add{
+    position: absolute;
+    top: 6vh;
+    font-size: 33px;
+    text-align: center;
+}
+
+.add-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-container .card{
+    width: 80vw;
+    height: 30vh;
+    min-width: 300px;
+    min-height: 215px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 34px;
+    border-radius: 10px;
+    font-family: var(--font-title);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.add-container .card:first-child{
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.add-container .card:last-child{
+    background-color: var(--black);
+    color: var(--green);
+}
+
+.add-container i{
+    font-size: 45px;
+}
+
+.add-smth-container{
+    padding: 20px;
+    padding-bottom: 200px;
+    text-align: left;
+    width: 100vw;
+    max-width: 600px;
+    overflow-y: scroll;
+}
+
+.add-smth-container h1{
+    font-size: 36px;
+}
+
+.add-smth-container i{
+    position: absolute;
+    top: 53px;
+    right: 20px;
+    color: var(--grey);
+}
+
+.add-smth-container label{
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.add-smth-container input, .add-smth-container select, .add-smth-container textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 7px 1px rgba(0,0,0,.25);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.add-smth-container textarea{
+    height: 120px;
+}
+
+.add-smth-container .form-element{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.add-smth-container button{
+    position: fixed;
+    bottom: 100px;
+    width: calc(100% - 40px);
+    max-width: 560px;
+    border-radius: 10px;
+    height: 60px;
+    background-color: var(--green);
+    border: none;
+    color: var(--white);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 25px;
+    box-shadow: 0 4px 7px 1px rgba(10, 172, 17, .25);
+}
+
+.add-smth-container li{
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    margin: 4px 0;
+    color: var(--grey);
+    cursor: pointer;
+}
+
+label a{
+    color: var(--green);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ellipsis-text {
+    text-overflow: ellipsis;
+}
